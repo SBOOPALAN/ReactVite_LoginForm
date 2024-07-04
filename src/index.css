@@ -1,0 +1,87 @@
+body {
+
+  background-image: url("ice1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.div1 {
+  padding: 40px 40px;
+  border-radius: 1%;
+  background: transparent;
+  box-shadow: 0 0 10px 2px rgba(52, 51, 50, 0.446);
+  backdrop-filter: blur(5px);
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  text-shadow: 1px 1px gold;
+  font-family: fantasy;
+}
+
+p {
+  font-size: 20px;
+}
+
+.font{
+  font-size: 15px;
+}
+
+form {
+  width: 340px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.button button{
+  font-weight: bold;
+  color:red;
+  background-color: rgb(5, 255, 5);
+  width: 200px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+form input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+@media all and (max-width:500px) {
+
+  body {
+    background-repeat: no-repeat;
+    background-position: cover;
+    align-items: baseline;
+    justify-content: space-around;
+    overflow-x: visible;
+    overflow-y: visible;
+    margin: 0;
+    padding: 0;
+  }
+
+  .div1 {
+    padding: 10px !important;
+    margin-top: 50px;
+    width: 320px;
+  }
+
+  input {
+    width: 80% !important;
+  }
+
+}
